@@ -2,7 +2,7 @@
 Detects Homepod based on named L-R in current network and creates a stereo sink using pactl to use in music / video applications. Tested on Arch Linux.
 
 #### Dependencies:
-- You need PulseAudio or PipeWire (with PulseAudio support) loaded
+- You need PipeWire (with PulseAudio support) loaded
 - You need to load module-raop-discover before using this script
 - You need to have running avahi daemon before using this script
 - The Homepod pair must be named “Homepod L” and “Homepod R”. Or just change the name in the script.
